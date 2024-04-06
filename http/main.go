@@ -24,6 +24,7 @@ func main() {
 	// sb := string(body)
 	// log.Println(sb)
 
+	// more info on how to parse json https://www.sohamkamani.com/golang/json/
 	var result map[string]any
 	json.Unmarshal(body, &result)
 
